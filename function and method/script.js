@@ -87,4 +87,32 @@ let x=[1,2,3,4,5,6,7]
  
 
 x.forEach( square)
+
+
+// map array method
+// create a new array with the result of some operation . this value its callback return are used  to form new array
    
+// arr.map (callbackfnx(value,index,array))
+// ex
+
+
+let newarr=arr.map((val)=>{
+      return val*2
+})
+
+// filter array method
+// creates a new array of element that give true for a condition/filter
+// eg: for all even elements
+
+let newarr1= arr.filter((val)=>{
+    return val%2==0;
+})
+
+// reduce array method
+// perform some operation and reduces  the array to a single value .it returns that single value
+
+let array=[,2,3,8,9]
+ const output=array.reduce((res,curr)=>{
+    return res>curr ? curr:res;
+ })
+ console.log(output)
