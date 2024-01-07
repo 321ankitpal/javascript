@@ -68,3 +68,19 @@ const profile={
 console.log(typeof profile["follow"]);//=> boolean
 console.log(typeof profile["username"]);//=> string
 
+let score="20";
+ console.log(typeof score)
+
+
+ let value=Number(score);
+ console.log(typeof value)
+
+//  same as that you can typecast  all datatype  write first letter capital of that datatypes
+
+let isLogin="ankit";
+
+let booleanis=Boolean(isLogin);
+ console.log(typeof booleanis );
+ 
+
+

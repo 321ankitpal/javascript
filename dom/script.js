@@ -70,6 +70,37 @@ console.log(manipulation)
 // append child
 // remove child
 
+// dom manipulation
+
+let el=document.createElement("button")
+el.innerText="click me";
+
+// let body=document.querySelector("body")
+// body.append(el);//add the end of the node(inside)
+
+
+// there also several method which for insert the element at different place
+// node.prepend(el)=>add the start of the node(inside)
+// node.before(el)=> add before the node(outside)
+// node.after(el)=> adds after the node(outside)
+
+
+// body.remove(el);
+
+
+// practice queastion
+
+let newButton=document.createElement("button")
+
+newButton.innerText="click me"
+
+newButton.style.backgroundColor="red";
+
+newButton.style.color="white";
+
+let body=document.querySelector("body")
+
+body.prepend(newButton);
 
 
 
