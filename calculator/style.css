@@ -1,0 +1,23 @@
+.head{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textb{
+    height: 50px;
+    width: 200px;
+    
+}
+.text{
+    height: 30px;
+    padding: 50px;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+}

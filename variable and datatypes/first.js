@@ -65,7 +65,7 @@ const profile={
     
 }
 
-console.log(typeof profile["follow"]);//=> boolean
+console.log(typeof profile["isfollow"]);//=> boolean
 console.log(typeof profile["username"]);//=> string
 
 let score="20";
